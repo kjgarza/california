@@ -1,0 +1,580 @@
+E, [2019-07-25T12:55:22.078404 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5066/P94TY8CT"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+10.17863/CAM.41915 [NotMinted]
+10.6084/M9.FIGSHARE.8982734 [NotMinted]
+10.20372/NADRE:1563870490.32 [NotMinted]
+10.20372/NADRE:1563872805.14 [NotMinted]
+10.20372/NADRE:1563870303.35 [NotMinted]
+10.20372/NADRE:1563867658.13 [NotMinted]
+10.20372/NADRE:1563874282.58 [NotMinted]
+10.20372/NADRE:1563874861.92 [NotMinted]
+10.20372/NADRE:1563874399.21 [NotMinted]
+10.20372/NADRE:1563875160.21 [NotMinted]
+10.20372/NADRE:1563875067.17 [NotMinted]
+10.20372/NADRE:1563875508.08 [NotMinted]
+10.20372/NADRE:1563875673.96 [NotMinted]
+10.20372/NADRE:1563871405.2 [NotMinted]
+10.20372/NADRE:1563875773.83 [NotMinted]
+10.20372/NADRE:1563876225.02 [NotMinted]
+10.20372/NADRE:1563877673.92 [NotMinted]
+10.20372/NADRE:1563876696.82 [NotMinted]
+10.20372/NADRE:1563876090.15 [NotMinted]
+10.20372/NADRE:1563881693.08 [NotMinted]
+10.20372/NADRE:1563881941.42 [NotMinted]
+10.20372/NADRE:1563878015.36 [NotMinted]
+10.20372/NADRE:1563881799.28 [NotMinted]
+10.20372/NADRE:1563882058.76 [NotMinted]
+10.20372/NADRE:1563882504.2 [NotMinted]
+10.20372/NADRE:1563882153.6 [NotMinted]
+10.20372/NADRE:1563882654.0 [NotMinted]
+10.20372/NADRE:1563882534.37 [NotMinted]
+10.20372/NADRE:1563882825.22 [NotMinted]
+10.20372/NADRE:1563882903.31 [NotMinted]
+10.20372/NADRE:1563883154.69 [NotMinted]
+10.20372/NADRE:1563883354.14 [NotMinted]
+10.6084/M9.FIGSHARE.8983349 [NotMinted]
+10.25394/PGS.8982722 [NotMinted]
+10.6084/M9.FIGSHARE.8982296 [NotMinted]
+10.20372/NADRE:1563888540.39 [NotMinted]
+10.20372/NADRE:1563889400.57 [NotMinted]
+10.20372/NADRE:1563888900.4 [NotMinted]
+10.20372/NADRE:1563889897.57 [NotMinted]
+10.6084/M9.FIGSHARE.8983709 [NotMinted]
+E, [2019-07-25T13:00:10.834381 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.CRG-2561"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:17.729623 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.5-12-348"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:18.869967 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.6-02-591"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:30.323202 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.3-07-376"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:37.265675 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.9-13-851"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:39.850697 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.6-02-588"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:40.044046 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.9-13-806"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:40.093068 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.4-01-1610"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:00:40.323538 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5291/ILL-DATA.1-03-38"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+10.3932/ETHZ-A-000012442 [NotMinted]
+10.3932/ETHZ-A-000010802 [NotMinted]
+10.3932/ETHZ-A-000012488 [NotMinted]
+10.3932/ETHZ-A-000012447 [NotMinted]
+10.3932/ETHZ-A-000012473 [NotMinted]
+10.3932/ETHZ-A-000012472 [NotMinted]
+10.3932/ETHZ-A-000012515 [NotMinted]
+10.3932/ETHZ-A-000012466 [NotMinted]
+10.3932/ETHZ-A-000012481 [NotMinted]
+10.3932/ETHZ-A-000012468 [NotMinted]
+10.3932/ETHZ-A-000012478 [NotMinted]
+10.3932/ETHZ-A-000012474 [NotMinted]
+10.3932/ETHZ-A-000012512 [NotMinted]
+10.3932/ETHZ-A-000012485 [NotMinted]
+10.3932/ETHZ-A-000012443 [NotMinted]
+10.3932/ETHZ-A-000012464 [NotMinted]
+10.3932/ETHZ-A-000012495 [NotMinted]
+10.3932/ETHZ-A-000012475 [NotMinted]
+10.3932/ETHZ-A-000012448 [NotMinted]
+10.3932/ETHZ-A-000012462 [NotMinted]
+10.3932/ETHZ-A-000012504 [NotMinted]
+10.3932/ETHZ-A-000012511 [NotMinted]
+10.3932/ETHZ-A-000012510 [NotMinted]
+10.3932/ETHZ-A-000012506 [NotMinted]
+10.3932/ETHZ-A-000012486 [NotMinted]
+10.3932/ETHZ-A-000012463 [NotMinted]
+10.3932/ETHZ-A-000012440 [NotMinted]
+10.3932/ETHZ-A-000012497 [NotMinted]
+10.3932/ETHZ-A-000012493 [NotMinted]
+10.3932/ETHZ-A-000012494 [NotMinted]
+10.3932/ETHZ-A-000012453 [NotMinted]
+10.3932/ETHZ-A-000012513 [NotMinted]
+10.3932/ETHZ-A-000012456 [NotMinted]
+10.3932/ETHZ-A-000220559 [NotMinted]
+10.3932/ETHZ-A-000012469 [NotMinted]
+10.3932/ETHZ-A-000012500 [NotMinted]
+10.17862/CRANFIELD.RD.8983772 [NotMinted]
+10.3932/ETHZ-A-000012476 [NotMinted]
+10.3932/ETHZ-A-000221317 [NotMinted]
+10.3932/ETHZ-A-000012480 [NotMinted]
+10.3932/ETHZ-A-000012441 [NotMinted]
+10.3932/ETHZ-A-000012499 [NotMinted]
+10.3932/ETHZ-A-000012459 [NotMinted]
+10.3932/ETHZ-A-000012444 [NotMinted]
+10.3932/ETHZ-A-000012450 [NotMinted]
+10.3932/ETHZ-A-000012489 [NotMinted]
+10.3932/ETHZ-A-000012465 [NotMinted]
+10.3932/ETHZ-A-000012449 [NotMinted]
+10.3932/ETHZ-A-000010101 [NotMinted]
+10.3932/ETHZ-A-000012482 [NotMinted]
+10.3932/ETHZ-A-000012454 [NotMinted]
+10.3932/ETHZ-A-000012487 [NotMinted]
+10.3932/ETHZ-A-000012502 [NotMinted]
+10.3932/ETHZ-A-000012498 [NotMinted]
+10.3932/ETHZ-A-000012458 [NotMinted]
+10.3932/ETHZ-A-000012452 [NotMinted]
+10.3932/ETHZ-A-000012445 [NotMinted]
+10.3932/ETHZ-A-000012461 [NotMinted]
+10.3932/ETHZ-A-000012516 [NotMinted]
+10.3932/ETHZ-A-000012470 [NotMinted]
+10.3932/ETHZ-A-000012467 [NotMinted]
+10.3932/ETHZ-A-000012457 [NotMinted]
+10.3932/ETHZ-A-000012492 [NotMinted]
+10.3932/ETHZ-A-000012451 [NotMinted]
+10.3932/ETHZ-A-000012514 [NotMinted]
+10.3932/ETHZ-A-000012505 [NotMinted]
+10.3932/ETHZ-A-000012483 [NotMinted]
+10.3932/ETHZ-A-000012471 [NotMinted]
+10.17181/CDS.2683754 [NotMinted]
+10.6084/M9.FIGSHARE.8983901 [NotMinted]
+10.25394/PGS.8983583 [NotMinted]
+10.6084/M9.FIGSHARE.8983922 [NotMinted]
+10.6084/M9.FIGSHARE.8983973 [NotMinted]
+10.25394/PGS.8983997 [NotMinted]
+E, [2019-07-25T13:05:22.657771 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.26102/2310-6018/2019.25.2.029"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:05:24.136830 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.26102/2310-6018/2019.25.2.030"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+E, [2019-07-25T13:05:25.760534 #75729] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.26102/2310-6018/2019.25.2.031"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:87:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+10.6084/M9.FIGSHARE.8983934 [NotMinted]
+10.25395/MWU.2019.8984024 [NotMinted]
+10.25395/MWU.2019.8984027 [NotMinted]
+10.6084/M9.FIGSHARE.8984045 [NotMinted]
+10.25395/MWU.2019.8984036 [NotMinted]
+10.25395/MWU.2019.8984072 [NotMinted]
+10.25773/V5-QJ79-5971 [NotMinted]
+10.25395/MWU.2019.8984078 [NotMinted]
+10.25395/MWU.2019.8984096 [NotMinted]
+10.34720/18QG-SW06 [NotMinted]
+10.17912/MICROPUB.BIOLOGY.000TEST [NotIndexed]
+10.25773/V5-ZMBX-8581 [NotMinted]
+10.25773/V5-M00E-K588 [NotMinted]
+10.25773/V5-WPXH-KX69 [NotMinted]
+10.17912/MICROPUB.BIOLOGY.000TEST1010 [NotIndexed]
+10.17912/TEST00001 [NotIndexed]
+10.17912/TEST00002 [NotIndexed]
+10.25774/W4-VFSZ-1C66 [NotMinted]
+10.25774/W4-MCPB-TA83 [NotMinted]
+10.25774/W4-GWCX-JP54 [NotMinted]
+10.25774/W4-F1V0-AK29 [NotMinted]
+10.25774/W4-C8GV-G703 [NotMinted]
+10.25774/W4-T65B-PV30 [NotMinted]
+10.25774/W4-KEW8-3B49 [NotMinted]
+10.25774/W4-XH4A-CA96 [NotMinted]
+10.25774/W4-D6RH-Z193 [NotMinted]
+10.17912/TEST0001 [NotIndexed]
+10.25774/W4-NDE2-X936 [NotMinted]
+10.25774/W4-EXZ7-3P40 [NotMinted]
+10.25774/W4-DRS8-NX23 [NotMinted]
+10.25774/W4-TS6W-B841 [NotMinted]
+10.25774/W4-8DGD-QV67 [NotMinted]
+10.25774/W4-MG7M-2465 [NotMinted]
+10.25774/W4-YBD0-3494 [NotMinted]
+10.25774/W4-13EC-ZG09 [NotMinted]
+10.25774/W4-FJ3A-KJ20 [NotMinted]
+10.25774/W4-J9W5-YF52 [NotMinted]
+10.25774/W4-XAN1-5487 [NotMinted]
+10.25774/W4-KMQM-1571 [NotMinted]
+10.25774/W4-A1WE-PD46 [NotMinted]
+10.21220/S2-DG43-1492 [NotMinted]
+10.21220/S2-HTXB-WM66 [NotMinted]
+10.21220/S2-FJMT-2J75 [NotMinted]
+10.21220/S2-J1WQ-4306 [NotMinted]
+10.21220/S2-J086-2347 [NotMinted]
+10.21220/S2-ZBJP-WP75 [NotMinted]
+10.21220/S2-JQBF-VA87 [NotMinted]
+10.21220/S2-DEPS-GN22 [NotMinted]
+10.21220/S2-YER7-0964 [NotMinted]
+10.21220/S2-NR71-4303 [NotMinted]
+10.21220/S2-4C04-0Z38 [NotMinted]
+10.21220/S2-DMW5-4Z41 [NotMinted]
+10.21220/S2-XMM6-B128 [NotMinted]
+10.21220/S2-VS74-NV62 [NotMinted]
+10.21220/S2-B1N8-RD66 [NotMinted]
+10.21220/S2-1Z1J-D577 [NotMinted]
+10.21220/S2-53VY-A659 [NotMinted]
+10.21220/S2-XM7B-1158 [NotMinted]
+10.21220/S2-T247-G383 [NotMinted]
+10.21220/S2-C9ZH-AM42 [NotMinted]
+10.21220/S2-TCXA-1T04 [NotMinted]
+10.21220/S2-3VTS-Q402 [NotMinted]
+10.25773/V5-V8A6-XN38 [NotMinted]
+10.21220/S2-WVKJ-FJ82 [NotMinted]
+10.21220/S2-1SWG-VP87 [NotMinted]
+10.21220/S2-B6PM-ZY79 [NotMinted]
+10.3932/ETHZ-A-000046953 [NotMinted]
+10.3932/ETHZ-A-000041388 [NotMinted]
+10.3932/ETHZ-A-000042049 [NotMinted]
+10.3932/ETHZ-A-000042067 [NotMinted]
+10.3932/ETHZ-A-000041835 [NotMinted]
+10.3932/ETHZ-A-000046859 [NotMinted]
+10.3932/ETHZ-A-000041840 [NotMinted]
+10.3932/ETHZ-A-000046383 [NotMinted]
+10.3932/ETHZ-A-000041834 [NotMinted]
+10.3932/ETHZ-A-000039908 [NotMinted]
+10.3932/ETHZ-A-000043691 [NotMinted]
+10.3932/ETHZ-A-000041837 [NotMinted]
+10.3932/ETHZ-A-000046419 [NotMinted]
+10.3932/ETHZ-A-000041932 [NotMinted]
+10.3932/ETHZ-A-000026543 [NotMinted]
+10.3932/ETHZ-A-000040460 [NotMinted]
+10.6084/M9.FIGSHARE.8984225 [NotMinted]
+10.17912/AAAAAA [NotIndexed]
+10.17912/BBBBBB [NotIndexed]
+10.17912/CCCCCC [NotIndexed]
+10.17912/DDDDDD [NotIndexed]
+10.6084/M9.FIGSHARE.8984228 [NotMinted]
+10.25373/CTSNET.8984213 [NotMinted]
+10.6084/M9.FIGSHARE.8986862.V1 [NotIndexed]
+10.25373/CTSNET.8984258 [NotMinted]
+10.25394/PGS.8984270 [NotMinted]
+10.25373/CTSNET.8984282 [NotMinted]
+10.6084/M9.FIGSHARE.8984300 [NotMinted]
+10.1037/A0027953 [NotMinted]
+10.6084/M9.FIGSHARE.8985695 [NotMinted]
+10.25950/C3DCA28E [NotMinted]
+10.35092/YHJC.8985656 [NotMinted]
+10.25394/PGS.8985734 [NotMinted]
+10.6084/M9.FIGSHARE.8323055 [NotMinted]
+10.6084/M9.FIGSHARE.8323052 [NotMinted]
+10.6084/M9.FIGSHARE.8323061 [NotMinted]
+10.13011/M3-4YBD-6E71 [NotMinted]
+10.6084/M9.FIGSHARE.8986088 [NotMinted]
+10.14308/ITE000504 [NotMinted]
+10.6068/DP16C2058E53793 [NotMinted]
+10.6084/M9.FIGSHARE.8986130 [NotMinted]
+10.25767/1ZX2-JZ34 [NotIndexed]
+10.6084/M9.FIGSHARE.8986184 [NotMinted]
+10.3932/ETHZ-A-000119261 [NotMinted]
+10.3932/ETHZ-A-000118046 [NotMinted]
+10.3932/ETHZ-A-000118445 [NotMinted]
+10.3932/ETHZ-A-000119474 [NotMinted]
+10.3932/ETHZ-A-000119004 [NotMinted]
+10.3932/ETHZ-A-000119471 [NotMinted]
+10.3932/ETHZ-A-000118958 [NotMinted]
+10.3932/ETHZ-A-000118554 [NotMinted]
+10.6084/M9.FIGSHARE.8986172 [NotMinted]
+10.3932/ETHZ-A-000118268 [NotMinted]
+10.3932/ETHZ-A-000120028 [NotMinted]
+10.3932/ETHZ-A-000118496 [NotMinted]
+10.3932/ETHZ-A-000118363 [NotMinted]
+10.3932/ETHZ-A-000118703 [NotMinted]
+10.3932/ETHZ-A-000118661 [NotMinted]
+10.3932/ETHZ-A-000118968 [NotMinted]
+10.3932/ETHZ-A-000118153 [NotMinted]
+10.3932/ETHZ-A-000119100 [NotMinted]
+10.3932/ETHZ-A-000118944 [NotMinted]
+10.3932/ETHZ-A-000118070 [NotMinted]
+10.3932/ETHZ-A-000119438 [NotMinted]
+10.3932/ETHZ-A-000119962 [NotMinted]
+10.3932/ETHZ-A-000118619 [NotMinted]
+10.3932/ETHZ-A-000119628 [NotMinted]
+10.3932/ETHZ-A-000119005 [NotMinted]
+10.3932/ETHZ-A-000118726 [NotMinted]
+10.3932/ETHZ-A-000118219 [NotMinted]
+10.3932/ETHZ-A-000119278 [NotMinted]
+10.3932/ETHZ-A-000118376 [NotMinted]
+10.3932/ETHZ-A-000119283 [NotMinted]
+10.3932/ETHZ-A-000119472 [NotMinted]
+10.3932/ETHZ-A-000118197 [NotMinted]
+10.3932/ETHZ-A-000118691 [NotMinted]
+10.3932/ETHZ-A-000118076 [NotMinted]
+10.7910/DVN/SP6HE7/9PNBBN [NotMinted]
+10.7910/DVN/SP6HE7/OJSQRR [NotMinted]
+10.6084/M9.FIGSHARE.8944535 [NotMinted]
+10.6084/M9.FIGSHARE.8944574 [NotMinted]
+10.25373/CTSNET.8986331 [NotMinted]
+10.25394/PGS.8986367 [NotMinted]
+10.6084/M9.FIGSHARE.8986412 [NotMinted]
+10.25373/CTSNET.8986385 [NotMinted]
+10.25345/C5S660 [NotMinted]
+10.35092/YHJC.C.4586573 [NotMinted]
+10.23641/ASHA.8986427 [NotMinted]
+10.6084/M9.FIGSHARE.8986592 [NotMinted]
+10.14288/CLOGIC.V12I0 [NotMinted]
+10.14288/CLOGIC.V16I0.191878 [NotMinted]
+10.14288/CLOGIC.V12I0.191873 [NotMinted]
+10.14288/CLOGIC.V12I0.191874 [NotMinted]
+10.14288/CLOGIC.V12I0.191870 [NotMinted]
+10.14288/CLOGIC.V12I0.191871 [NotMinted]
+10.14288/CLOGIC.V12I0.191869 [NotMinted]
+10.14288/CLOGIC.V12I0.191868 [NotMinted]
+10.14288/CLOGIC.V12I0.191866 [NotMinted]
+10.14288/CLOGIC.V12I0.191864 [NotMinted]
+10.14288/CLOGIC.V12I0.191876 [NotMinted]
+10.14288/CLOGIC.V12I0.191865 [NotMinted]
+10.14288/CLOGIC.V12I0.191863 [NotMinted]
+10.14288/CLOGIC.V12I0.191861 [NotMinted]
+10.14288/CLOGIC.V12I0.191862 [NotMinted]
+10.14288/CLOGIC.V12I0.191860 [NotMinted]
+10.14288/CLOGIC.V12I0.191858 [NotMinted]
+10.14288/CLOGIC.V12I0.191859 [NotMinted]
+10.14288/CLOGIC.V12I0.191849 [NotMinted]
+10.14288/CLOGIC.V12I0.191857 [NotMinted]
+10.14288/CLOGIC.V12I0.191872 [NotMinted]
+10.6084/M9.FIGSHARE.8986589 [NotMinted]
+10.6084/M9.FIGSHARE.8986616 [NotMinted]
+10.17605/OSF.IO/NS5QT [NotMinted]
+10.6084/M9.FIGSHARE.8986652 [NotMinted]
+10.25394/PGS.8986640 [NotMinted]
+10.25394/PGS.8987684 [NotMinted]
+10.6084/M9.FIGSHARE.8987123 [NotMinted]
+I, [2019-07-25T14:28:32.941128 #75729]  INFO -- : Pausing to allow workers to finish...
+10.5281/ZENODO.3348533 [NotMinted]
+10.5281/ZENODO.3348372 [NotMinted]
+10.5281/ZENODO.3348371 [NotMinted]
+10.17605/OSF.IO/D5HXS [NotMinted]
+10.5281/ZENODO.3348607 [NotMinted]
+10.26197/5D37E03880F8C [NotMinted]
+10.5281/ZENODO.3348606 [NotMinted]
+10.5281/ZENODO.3348609 [NotMinted]
+10.5281/ZENODO.3348608 [NotMinted]
+10.5281/ZENODO.3348611 [NotMinted]
+10.5281/ZENODO.3348610 [NotMinted]
+10.5281/ZENODO.3348613 [NotMinted]
+10.5281/ZENODO.3348612 [NotMinted]
+10.5281/ZENODO.3348615 [NotMinted]
+10.5281/ZENODO.3348614 [NotMinted]
+10.5281/ZENODO.3348616 [NotMinted]
+10.5281/ZENODO.3348617 [NotMinted]
+10.5281/ZENODO.3348619 [NotMinted]
+10.5281/ZENODO.3348618 [NotMinted]
+10.5281/ZENODO.3348621 [NotMinted]
+10.5281/ZENODO.3348620 [NotMinted]
+W, [2019-07-25T14:31:52.121992 #75729]  WARN -- : Queued jobs didn't finish before shutdown_timeout...killing remaining jobs

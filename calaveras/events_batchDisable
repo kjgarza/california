@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking api.datacite.org (be patient).....done
+
+
+Server Software:        nginx/1.15.8
+Server Hostname:        api.datacite.org
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        api.datacite.org
+
+Document Path:          /events?include=dois&source-id=datacite-related&batchdisable=true
+Document Length:        357427 bytes
+
+Concurrency Level:      1
+Time taken for tests:   40.535 seconds
+Complete requests:      5
+Failed requests:        0
+Total transferred:      1789400 bytes
+HTML transferred:       1787135 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8106.952 [ms] (mean)
+Time per request:       8106.952 [ms] (mean, across all concurrent requests)
+Transfer rate:          43.11 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      168  243 113.4    207     444
+Processing:  7269 7864 543.0   8076    8438
+Waiting:     6566 7203 649.3   7427    7910
+Total:       7458 8107 552.1   8404    8640
+
+Percentage of the requests served within a certain time (ms)
+  50%   8171
+  66%   8637
+  75%   8637
+  80%   8640
+  90%   8640
+  95%   8640
+  98%   8640
+  99%   8640
+ 100%   8640 (longest request)

@@ -1,0 +1,56 @@
+E, [2019-07-25T12:39:14.928440 #73474] ERROR -- : Sucker Punch job error for class: 'CheckHandleJob' args: ["10.5066/P94TY8CT"]
+ArgumentError invalid byte sequence in UTF-8
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `gsub'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:239:in `from_string'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:213:in `parse_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:196:in `parse_error_response'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:174:in `rescue_faraday_error'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:90:in `rescue in method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:54:in `method'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/maremma-4.2.1/lib/maremma.rb:46:in `get'
+modoc.rb:95:in `check_resolv'
+modoc.rb:27:in `perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:60:in `__run_perform'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sucker_punch-2.1.1/lib/sucker_punch/job.rb:38:in `block in perform_async'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/usr/local/opt/rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.1.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+10.17863/CAM.41915 [NotMinted]
+10.6084/M9.FIGSHARE.8982734 [NotMinted]
+10.20372/NADRE:1563867658.13 [NotMinted]
+10.20372/NADRE:1563870303.35 [NotMinted]
+10.20372/NADRE:1563870490.32 [NotMinted]
+10.20372/NADRE:1563871405.2 [NotMinted]
+10.20372/NADRE:1563872805.14 [NotMinted]
+10.20372/NADRE:1563874282.58 [NotMinted]
+10.20372/NADRE:1563874399.21 [NotMinted]
+10.20372/NADRE:1563874861.92 [NotMinted]
+10.20372/NADRE:1563875160.21 [NotMinted]
+10.20372/NADRE:1563875067.17 [NotMinted]
+10.20372/NADRE:1563875508.08 [NotMinted]
+10.20372/NADRE:1563875773.83 [NotMinted]
+10.20372/NADRE:1563875673.96 [NotMinted]
+10.20372/NADRE:1563876225.02 [NotMinted]
+10.20372/NADRE:1563876696.82 [NotMinted]
+10.20372/NADRE:1563877673.92 [NotMinted]
+10.20372/NADRE:1563878015.36 [NotMinted]
+10.20372/NADRE:1563876090.15 [NotMinted]
+10.20372/NADRE:1563881693.08 [NotMinted]
+10.20372/NADRE:1563881799.28 [NotMinted]
+10.20372/NADRE:1563881941.42 [NotMinted]
+10.20372/NADRE:1563882058.76 [NotMinted]
+10.20372/NADRE:1563882504.2 [NotMinted]
+10.20372/NADRE:1563882153.6 [NotMinted]
+10.20372/NADRE:1563882534.37 [NotMinted]
+10.20372/NADRE:1563882654.0 [NotMinted]
+10.20372/NADRE:1563882825.22 [NotMinted]
+10.20372/NADRE:1563882903.31 [NotMinted]
+10.20372/NADRE:1563883154.69 [NotMinted]
+10.20372/NADRE:1563883354.14 [NotMinted]
+10.6084/M9.FIGSHARE.8983349 [NotMinted]
+10.25394/PGS.8982722 [NotMinted]
+10.25534/TUDATALIB-62 [NotMinted]
+I, [2019-07-25T12:40:49.393925 #73474]  INFO -- : Pausing to allow workers to finish...
