@@ -224,7 +224,6 @@ end
 def update_file(id,query,resource)
   get_file(id)
   data = get_data(query).dig(resource)
-  puts data
   CSV.open('final.csv','w+') 
   ["subjects","languages","licenses","repositories","published","affiliations"].each do |agg|
     save_data(data.dig(agg),agg)

@@ -4,7 +4,7 @@ TASK = ARGV[0]
 YEAR = ARGV[1]
 MONTH = ARGV[2]
 
-return puts "You gave me #{TASK} -- I have no idea what to do with that." unless YEAR && MONTH
+return puts "You gave me #{TASK} -- I have no idea what to do with that." unless YEAR && MONTH || TASK == "help"
 
 case TASK
 when "download"
@@ -28,6 +28,8 @@ when "push_html"
   system("cp ~/datacite/doi-resolution-report/datacite_logs_#{YEAR}#{MONTH}_res/resolutions_#{MONTH}_#{YEAR}.html ~/datacite/stats-portal/source/stats/resolution-report/")
 when "s3ve"
   system("aws s3 cp ~/downloads/datacite_logs_#{YEAR}#{MONTH} s3://raw-resolution-logs.datacite.org/#{YEAR}#{MONTH}/ --recursive")
+when "help"
+  puts "your options are: move, process, push_html, s3ve"
 else
   puts "You gave me #{TASK} -- I have no idea what to do with that."
 end
