@@ -12,10 +12,10 @@ when "download"
   system("cd ~/downloads/datacite_logs_#{YEAR}#{MONTH}")
   puts"https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}"
   system("
-  curl -k --request GET --header 'authorization: Basic ZGF0YWNpdGU6ZEAxaDczayQxc2s=' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-ap-southeast-1.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-ap-southeast-1.gz
-  curl -k --request GET --header 'authorization: Basic ZGF0YWNpdGU6ZEAxaDczayQxc2s=' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-eu-west-1.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-eu-west-1.gz
-  curl -k --request GET --header 'authorization: Basic ZGF0YWNpdGU6ZEAxaDczayQxc2s=' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-us-east-1.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-us-east-1.gz
-  curl -k --request GET --header 'authorization: Basic ZGF0YWNpdGU6ZEAxaDczayQxc2s=' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-us-west-2.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-us-west-2.gz
+  curl -k --request GET --header 'authorization: Basic #{AUTH}' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-ap-southeast-1.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-ap-southeast-1.gz
+  curl -k --request GET --header 'authorization: Basic #{AUTH}' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-eu-west-1.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-eu-west-1.gz
+  curl -k --request GET --header 'authorization: Basic #{AUTH}' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-us-east-1.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-us-east-1.gz
+  curl -k --request GET --header 'authorization: Basic #{AUTH}' --url https://loganalysis.handle.net/datacite/logs/DataCite-access.log-#{YEAR}#{MONTH}-us-west-2.gz --output ~/downloads/datacite_logs_#{YEAR}#{MONTH}/DataCite-access.log-#{YEAR}#{MONTH}-us-west-2.gz
   " )
 when "move"
   system("mkdir ~/datacite/doi-resolution-report/datacite_logs_#{YEAR}#{MONTH}")
